@@ -27,10 +27,4 @@ class MapNo1 extends React.Component {
 //   intital.position: React.PropTypes.object.isRequired;
 // };
 
-
-// PiggyBank.propTypes = {
-//   title: PropTypes.string
-//   // title: PropTypes.string.isRequired
-// }
-
 export default MapNo1;
