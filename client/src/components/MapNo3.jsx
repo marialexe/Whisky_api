@@ -12,8 +12,8 @@ class MapNo3 extends React.Component {
 
   render(){
     return(
-      <div>
-      <button>Discover Canadian Whiskey</button>
+      <div id="countryMap">
+      <button>Discover Canadian Whiskey!</button>
       <div ref="canadaMap" className="map"></div>
       </div>)
   }

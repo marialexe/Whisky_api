@@ -12,7 +12,7 @@ class MapNo2 extends React.Component {
 
   render() {
     return(
-      <div>
+      <div id="countryMap">
         <button>Discover American Whisky!</button>
         <div ref="usaMap"className="map">
         </div>

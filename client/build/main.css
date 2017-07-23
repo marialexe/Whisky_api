@@ -8,11 +8,19 @@ body{
   border: 1px solid black;
 }
 
+#countryMap {
+  border: 1px solid red;
+  width: 302px;
+  margin: 10px;
+  display: inline-block;
+}
+
 #component {
   border: 1px solid black;
   display: inline-block;
   width: 650px;
-  height: 1000px;
+  height: 1050px;
+  background-color: #F0F8FF;
 }
 
 #distillery {
