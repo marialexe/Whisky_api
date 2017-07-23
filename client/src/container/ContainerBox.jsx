@@ -6,10 +6,10 @@ class ContainerBox extends React.Component {
 
   render() {
     return(
-      <div className="whisky">
-      <h1>{this.props.title}</h1>
-      <MapsComponent/>
-      <Description/>
+      <div>
+        <h1>{this.props.title}</h1>
+          <Description/>
+          <MapsComponent/>
       </div>
       )
   }

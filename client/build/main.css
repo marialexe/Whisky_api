@@ -5,4 +5,16 @@ body{
 .map {
   height: 300px;
   width: 300px;
+  border: 1px solid black;
+}
+
+#component {
+  border: 1px solid black;
+  display: inline-block;
+  width: 650px;
+  height: 1000px;
+}
+
+#distillery {
+  color: red;
 }

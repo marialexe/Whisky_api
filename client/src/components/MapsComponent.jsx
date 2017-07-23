@@ -8,9 +8,7 @@ class MapsComponent extends React.Component {
   
   render() {
     return(
-      // <div ref="map" style={mapStyle} ref="map">
-      <div>
-        <h2>Here there will be some maps!</h2>
+      <div id="component">
         <MapNo1/>
         <MapNo2/>
         <MapNo3/>

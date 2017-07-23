@@ -14,7 +14,7 @@ class MapNo3 extends React.Component {
     return(
       <div>
       <button>Discover Canadian Whiskey</button>
-      <div ref="canadaMap" style={{width: 300, height:300, border: '1px solid black'}}></div>
+      <div ref="canadaMap" className="map"></div>
       </div>)
   }
 
