@@ -6,7 +6,6 @@ class MapNo1 extends React.Component {
   componentDidMount() {
     const map1 = new google.maps.Map(this.refs.scotlandMap, {
       center: {lat: 57.194490, lng: -3.823812},
-      // 56.872348, -4.323766
       // scrollwheel: false,
       zoom: 6
     });

@@ -1,7 +1,7 @@
 import React from 'react'
-
 import MapNo1 from './MapNo1.jsx'
 import MapNo2 from './MapNo2.jsx'
+import MapNo3 from './MapNo3.jsx'
 
 class MapsComponent extends React.Component {
 
@@ -13,6 +13,7 @@ class MapsComponent extends React.Component {
         <h2>Here there will be some maps!</h2>
         <MapNo1/>
         <MapNo2/>
+        <MapNo3/>
       </div>
       )
   }
