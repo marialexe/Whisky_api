@@ -5,6 +5,8 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.13.4",
+    "google-map-react": "^0.24.0",
+    "google-maps-react": "^1.0.19",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",

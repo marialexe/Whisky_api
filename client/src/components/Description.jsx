@@ -3,6 +3,14 @@ import DistilleryList from './DistilleryList.jsx'
 
 class Description extends React.Component {
 
+  // constructor(props) {
+  //   super(props);
+  //   this.state={
+  //     distilleries=[],
+  //     whiskys=[]
+  //   }
+  // }
+
   render() {
     return(
       <div id="component">
