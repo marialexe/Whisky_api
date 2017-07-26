@@ -11,11 +11,12 @@ class Description extends React.Component {
   //   }
   // }
 
+
   render() {
     return(
       <div id="component">
         <h2>Description section</h2>
-        <DistilleryList/>
+        <DistilleryList countries={this.props.countries} list={this.props.distilleriesList} selectedCountryId={this.props.selectedCountryId}/>
       </div>
       )
   }

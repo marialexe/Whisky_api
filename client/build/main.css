@@ -28,12 +28,43 @@ body{
   color: red;
 }
 
-/*#scotland {
-  position: relative;
-  width: 50%;*/
-  /*opacity: 1;
-  
-}*/
+#Scotland {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Scotland.svg/1280px-Flag_of_Scotland.svg.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+#Usa {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+
+#Canada{
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Flag_of_Canada.svg/1280px-Flag_of_Canada.svg.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+
+#Ireland{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/255px-Flag_of_Ireland.svg.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+
+#Japan{
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+
+#India{
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/255px-Flag_of_India.svg.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+
 
 .overlay {
   position: absolute;
@@ -44,8 +75,7 @@ body{
   height: 100%;
   width: 100%;
   opacity: 1;
-  transition: .5s ease;
-  background-color: #008CBA;
+  transition: .3s ease;
   z-index: 2;
 }
 
@@ -57,4 +87,20 @@ body{
 #wrapper {
   display: flex;
 }
+
+.text {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.marker {
+  color: red;
+  background-color: white;
+}
+
 
