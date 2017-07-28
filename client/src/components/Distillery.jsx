@@ -5,7 +5,7 @@ class Distillery extends React.Component {
   render(){
     return(
       <div id="distillery">
-        <h4>Distillery details can be found here!</h4>
+        <h4></h4>
         <WhiskyList/>
       </div>
       )

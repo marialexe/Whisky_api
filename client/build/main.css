@@ -1,5 +1,10 @@
 body{
   font-family: Verdana;
+  /*background-image: url("rinks.seriouseats.com/images/2013/03/20130307cognacprimary.jpg");*/
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  background-color: #B0C4DE
+  /*opacity:0.5;*/
 }
 
 .map {
@@ -9,19 +14,28 @@ body{
 }
 
 .countryMap {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   width: 302px;
   margin: 10px;
   display: inline-block;
   position: relative;
 }
 
-#component {
-  border: 1px solid black;
-  /*display: inline-block;*/
+#description {
+/*  background-image: url("http://esq.h-cdn.co/assets/15/30/480x600/gallery-1437408027-1w.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;*/
+  display: inline-block;
+  width: 900px;
+  /*border: 1px solid black;*/
+}
+
+#mapComponent {
+  /*border: 1px solid black;*/
+  display: inline-block;
   width: 650px;
-  height: 1050px;
-  background-color: #F0F8FF;
+  /*height: 1050px;*/
+  /*background-color: #F0F8FF;*/
 }
 
 #distillery {
@@ -103,4 +117,21 @@ body{
   background-color: white;
 }
 
+.button {
+    background-color: #F5DEB3; 
+   /* border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;*/
+}
 
+#distillery {
+  background-image: url("")
+}
+
+ContainerBox{
+  color: yellow;
+}

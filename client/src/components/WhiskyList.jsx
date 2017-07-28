@@ -5,7 +5,7 @@ class WhiskyList extends React.Component {
   render() {
     return(
       <div>
-        <h5>Lagavullin</h5>
+        <h5></h5>
       </div>
       )
   }

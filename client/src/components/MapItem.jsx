@@ -27,7 +27,7 @@ class MapItem extends React.Component {
             <div className="overlay" id={this.props.countryName}>
         
             </div>
-            <button onClick={this.showDetails.bind(this)}>Discover Scottish Whisky!</button>
+            <button className="button" onClick={this.showDetails.bind(this)}>Discover Scottish Whisky!</button>
             <div className="map">
               <GoogleMap center={{lat: this.props.lat, lng: this.props.lng}} zoom={this.props.zoom} >   
                   {markersArray}

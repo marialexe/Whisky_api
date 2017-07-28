@@ -1,4 +1,5 @@
 import React from 'react'
+import Marker from 'google-maps-react'
 
 class DistilleryMarker extends React.Component {
 
@@ -8,6 +9,7 @@ class DistilleryMarker extends React.Component {
         {this.props.text}
       </div>
       )
+    // this.marker = new google.maps.Marker(pref);
   }
 
 }

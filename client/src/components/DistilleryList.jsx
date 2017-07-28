@@ -15,7 +15,9 @@ class DistilleryList extends React.Component {
     const distilleriesArray = this.props.list.map((distillery,index) => {
       return(
         <div key={index}>
+         
           <p>{distillery.name}</p>
+          <p>{distillery.description}</p>
         </div>
         )
     })
@@ -23,7 +25,7 @@ class DistilleryList extends React.Component {
       <div>
        
         {distilleriesArray}
-        <Distillery/>
+        <Distillery countries={this.props.countries} list={this.props.distilleriesList} selectedCountryId={this.props.selectedCountryId}/>
       </div>
       )
   }

@@ -13,7 +13,7 @@ class MapsComponent extends React.Component {
     })
     
     return(
-      <div id="component">
+      <div id="mapComponent">
         {countryArray}
       </div>
       )
